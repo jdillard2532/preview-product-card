@@ -35,8 +35,8 @@ img {
 .card-content {
   display: flex;
   flex-direction: column;
-  padding: 2.29rem;
-  gap: 1.71rem;
+  padding: 1rem 2.29rem 0 2.29rem;
+  gap: 1.5rem;
 }
 
 .title-description {
@@ -46,10 +46,11 @@ img {
 
 .card-title {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
   color: hsl(212, 21%, 14%);
   padding-right: 2rem;
   line-height: 100%;
+  margin: 0;
 }
 .card-body {
   line-height: 150%;
@@ -81,6 +82,7 @@ img {
   color: #fff;
   border-radius: 15px;
   gap: 1rem;
+  margin-top: 1rem;
 }
 .card-button:hover {
   background-color: hsl(212, 21%, 14%);
@@ -105,7 +107,6 @@ img {
   .card-content {
     padding: 1rem;
     background-color: #fff;
-    gap: 1rem;
     border-radius: 0 0 15px 15px;
   }
 
